@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxJO1KgMs0AWWvY8d2yyHYWlYK9x5InHZQQ&usqp=CAU');
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+button{
+    height:50px;
+    width:60px;
+}
+.flex{
+    display:flex;
+    flex-direction:column;
+    padding:90px;
+}
+img{
+    width:300px;
+}
+h2{
+    font-weight:bold;
+}
+.hide-bg{
+    mix-blend-mode:multiply;
+    filter:contrast(400000);
+}
